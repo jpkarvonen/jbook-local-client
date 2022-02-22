@@ -33,7 +33,6 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
       .replace(/\n$/, '');
 
     editorRef.current.setValue(formatted);
-    console.log(editorRef.current);
   };
   return (
     <div className="editor-wrapper">
